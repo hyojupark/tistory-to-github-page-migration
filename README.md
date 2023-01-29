@@ -13,11 +13,11 @@
 1. 수집할 게시글 번호 range(`start_page_no`~`end_page_no`) 내의 게시글을 전부 수집
     - 없는 게시글(**404**)이 있으면 pass
 2. 게시글 본문 및 이미지, metadata 수집
-    2.1. 게시글 본문 포맷을 markdown으로 변경(markdownify, ATX)
-    2.2. 본문 상단에 metadata 정보 입력
-    2.3. 이미지는 순서대로 **img-{no}.png**로 저장
-    2.4. 본문 내 이미지를 GitHub Page 이미지 저장 위치(`image_save_dir`)로 치환
-    2.5. 게시글 파일명은 **{year}-{month}-{day}-tistory-post-{page_no}.md**
+    1. 게시글 본문 포맷을 markdown으로 변경(markdownify, ATX)
+    2. 본문 상단에 metadata 정보 입력
+    3. 이미지는 순서대로 **img-{no}.png**로 저장
+    4. 본문 내 이미지를 GitHub Page 이미지 저장 위치(`image_save_dir`)로 치환
+    5. 게시글 파일명은 **{year}-{month}-{day}-tistory-post-{page_no}.md**
 
 
 
